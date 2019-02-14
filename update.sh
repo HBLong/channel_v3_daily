@@ -4,7 +4,7 @@ SHELL_FOLDER=$(cd "$(dirname "$0")";pwd)
 # up to latest
 git pull
 
-# download laster channel_v3.json
+# download latest channel_v3.json
 echo "download channel_v3.json to ${SHELL_FOLDER}/channel_v3.json"
 curl -o ${SHELL_FOLDER}/channel_v3.json https://packagecontrol.io/channel_v3.json
 
