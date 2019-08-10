@@ -1,6 +1,7 @@
 #!/bin/bash
 SHELL_FOLDER=$(cd "$(dirname "$0")";pwd)
 
+rm -f ${SHELL_FOLDER}/.git/index.lock
 # change workdir to git
 echo "go into ${SHELL_FOLDER}"
 cd $SHELL_FOLDER
